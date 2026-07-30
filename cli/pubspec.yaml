@@ -1,7 +1,8 @@
 name: cli
+pubish_to: none
 description: A sample command-line application.
 version: 1.0.0
-repository: https://github.com/the-cozy-coder/dartpedia
+# repository: https://github.com/the-cozy-coder/dartpedia
 
 
 environment:
@@ -11,6 +12,8 @@ environment:
 dependencies:
   path: ^1.9.0
   http: ^1.4.0
+  command_runner: 
+    path: ../command_runner
 
 dev_dependencies:
   lints: ^6.0.0
